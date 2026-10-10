@@ -1,0 +1,79 @@
+body {
+    background-color: #f4f7f6;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin:0 auto 20px;
+}
+
+.card h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #2980b9;
+}
+
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+body.darkMode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.darkMode .card {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+body.darkMode h1,
+body.darkMode .card h2 {
+    color: #61afef;
+    border-color: #61afef;
+}
+
+body.darkMode button {
+    background-color: #61afef;
+    color: #1e1e1e;
+}
+
+
+.github{
+    color: #24292e;
+}
+
+.discord{
+    color: #5865F2;
+}
